@@ -6,3 +6,6 @@ def home(request):
 
 def about(request):
     return render(request,'patientapp/about.html')
+
+def contact(request):
+    return render(request,'patientapp/contact.html')

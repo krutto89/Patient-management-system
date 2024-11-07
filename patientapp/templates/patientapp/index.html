@@ -1,12 +1,29 @@
+{% load static  %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
+    <style>
+        h1{
+            text-align: center;
+            background-color: black;
+            color: aliceblue;
+            font-size: 80px;
+            text-shadow: 12px 9px 12px green;
+
+        }
+    </style>
+    <link rel="stylesheet" href="{% static 'patientapp/css/main.css' %}">
 </head>
 <body>
     <h1>PatientPlus</h1>
+    <img src="{% static 'patientapp/assets/front.jpg' %}" alt="PatientPlus Logo">
+    <img src="{% static 'patientapp/assets/stethoscope.jpg' %}" alt="">
+    <img src="{% static 'patientapp/assets/doctors.jpg' %}" alt="">
+    <img src="{% static 'patientapp/assets/room.jpg' %}" alt="">
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam soluta quasi optio, vero voluptatibus fuga corrupti reprehenderit sequi mollitia. Consectetur, officiis excepturi veniam ut odio vero nam quos tempora suscipit.
     Reprehenderit, rem quidem. Culpa obcaecati ratione saepe molestias error, minus iure sit dolor praesentium adipisci nemo officiis laboriosam expedita voluptatibus! Porro unde nesciunt ex minus dolore tempore laborum earum dolores!</p>
     <p><span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque dolorum neque dolor similique corporis laborum sapiente dolore, eaque voluptatem qui laboriosam aliquam molestiae eos sunt nam assumenda! Ipsum, tenetur quos!
